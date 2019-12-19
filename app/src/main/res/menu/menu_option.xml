@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_check"
+        android:checked="true"
+        android:title="全选"
+        android:visible="true" />
+    <item
+        android:id="@+id/menu_item_content"
+        android:checked="true"
+        android:title="编辑"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_item_delete"
+        android:checked="true"
+        android:title="删除"
+        android:visible="false" />
+
+</menu>
